@@ -1,0 +1,46 @@
+#positionMain{
+    position:fixed;
+    top:100px;
+    left:100px;
+    background-color: cyan;
+}
+
+.positonBoxes{
+    display: inline-block;
+    height:100px;
+    width:100px;
+    background-color: red;
+}
+
+#static{
+    position:static;
+    top:10px;
+    
+}
+
+#relative{
+    position:relative;
+    top:10px;
+}
+
+
+#absolute{
+    position:absolute;
+    top:40px;
+    right:20px;
+    opacity:0.3;
+    background-color: yellowgreen;
+}
+
+#fixed{
+    position: fixed;
+    top:40px;
+    left:500px;
+    background-color: green;
+}
+
+#sticky{
+    position:sticky;
+    top:500px;
+    left:400px;
+}

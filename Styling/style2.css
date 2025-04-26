@@ -1,0 +1,59 @@
+#box{
+    height:80px;
+    width:80px;
+    padding:3px;
+    margin:5px;
+    background-color: red;
+    border:6px solid blue;
+
+}
+
+#radius{
+    height:80px;
+    width:80px;
+    border:1px solid blue;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.display{
+    height:80px;
+    width:80px;
+    border:1px solid blue;
+    background-color: rgb(0, 255, 136);
+    border-radius: 50%;
+}
+#displayInline{
+    display: inline;
+}
+#displayBlock{
+    display: block;
+}
+#displayInlineBlock{
+    display: inline-block;
+}
+#displayNone{
+    display: none;
+}
+
+#opacity3{
+    opacity:0.3;
+}
+#opacity1{
+    opacity:1;
+}
+
+
+
+#unitv{
+    height:30vh;
+    width:50vw;
+    background-color: yellow;
+    border:2px solid black;
+
+}
+#unitp{
+    height:40%;
+    width:50%;
+    background-color: red;
+}

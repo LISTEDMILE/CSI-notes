@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+</head>
+<body>
+    <a href="home page.html" target="home page.html">home page---link for previous page</a>
+    <form action="">
+        <h1>Payment Form</h1>
+        
+        <p>Required Fields are followed by *</p>
+        <h2>Contact Information</h2>
+        <p>name:* <input type="text" name="name" required></p>
+
+
+
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+            male <input type="radio" name="gender" id="Male">
+            female <input type="radio" name="gender" id="Female">
+            </p>
+        </fieldset>
+
+
+
+
+        <p>Address:<textarea name="address" id="address" cols="100" rows="8" required></textarea></p>
+
+        <p>Email: <input type="email" name="email" id="email" required></p>
+        <p>
+            Pincode:* <input type="number" name="pincode" id="pincode">
+        </p>
+        <hr>
+        <h2>Payment Information</h2>
+        <p>Card Type: 
+            <select name="card_type" id="card_type">
+                <option value="">--Select a Card Type--</option>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="icici bank card">ICICI bank card</option>
+                <option value="axis bank card">Axis bank card</option>
+            </select>
+        </p>
+        <p>
+            Card Number:* <input type="number" name="card_number" id="card_number" required>
+        </p>
+        <p>
+            Expiration Date:* <input type="date" name="exp_date" id="exp_date"required>
+        </p>
+        <p>CVV:* <input type="password" name="cvv" id="cvv"required></p>
+
+        <input type="submit" value="Pay Now">
+    </form>
+    
+</body>
+</html>

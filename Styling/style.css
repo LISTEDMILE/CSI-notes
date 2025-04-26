@@ -1,0 +1,71 @@
+#externalCSS{
+    background-color: red;
+    color:white;
+}
+
+#colorSystemRGB{
+    color:rgb(255,0,0);
+}
+
+#colorSystemHex{
+    color:#00ff00;
+}
+
+#colorSystemName{
+    color:blueviolet;
+}
+
+#textCenter{
+    text-align: center;
+}
+
+#textLeft{
+    text-align: left;
+}
+
+#textRight{
+    text-align: right;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#overline{
+    text-decoration: overline;
+}
+
+#linethrough{
+    text-decoration: line-through;
+}
+
+
+#fontWeightBold{
+    font-weight: bold;
+}
+#fontWeightBolder{
+    font-weight: bolder;
+}
+#fontWeightLighter{
+    font-weight: lighter;
+}
+#fontWeightCustom{
+    font-weight: 300;
+}
+
+
+#fontFamily{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#textTransformUpperCase{
+    text-transform: uppercase;
+}
+#textTransformLowerCase{
+    text-transform: lowercase;
+}
+#textTransformCapitalize{
+    text-transform: capitalize;
+}
+
+
