@@ -5,7 +5,7 @@
     background-color: cyan;
 }
 
-.positonBoxes{
+.positionBoxes{
     display: inline-block;
     height:100px;
     width:100px;
@@ -41,6 +41,24 @@
 
 #sticky{
     position:sticky;
-    top:500px;
-    left:400px;
+    top:10px;
+    z-index: 80;
+}
+
+.Image{
+    background-image: url("image.jpg");
+    height:400px;
+    width: 400px;
+    margin:10px;
+    color:white;
+    display: inline-block;
+}
+
+#ImageCover{
+    background-size: cover;
+    
+}
+#ImageContain{
+    background-size: contain;
+    
 }

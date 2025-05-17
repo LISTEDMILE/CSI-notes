@@ -1,0 +1,66 @@
+#positionMain{
+    position:fixed;
+    top:100px;
+    width:300px;
+    height:300px;
+    left:100px;
+    background-color: cyan;
+}
+
+.positionBoxes{
+    display: inline-block;
+    height:100px;
+    width:100px;
+    background-color: red;
+}
+
+#static{
+    position:static;
+    top:1000px;
+    
+}
+
+#relative{
+    position:relative;
+    top:-80px;
+}
+
+
+#absolute{
+    position:absolute;
+    top:40px;
+    left:-20px;
+    background-color: yellowgreen;
+}
+
+#fixed{
+    position: fixed;
+    top:40px;
+    left:500px;
+    background-color: green;
+}
+
+#sticky{
+    position:sticky;
+    top:10px;
+    z-index: 0;
+}
+
+.Image{
+    background-image: url("image.jpg");
+    height:400px;
+    width: 400px;
+    margin:10px;
+    color:white;
+    display: inline-block;
+}
+
+#ImageCover{
+    background-size: cover;
+    
+}
+#ImageContain{
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}

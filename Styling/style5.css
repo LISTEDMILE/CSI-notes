@@ -1,0 +1,18 @@
+#outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .inner{
+        height:400px;
+        width: 300px;
+        margin:20px;
+        background-color: aqua;
+    }
+}
+
+@media (min-width:1000px){
+    #outer{
+        flex-direction: row;
+    }
+}

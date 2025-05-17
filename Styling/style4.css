@@ -1,0 +1,135 @@
+.outerDiv{
+    display: flex;
+    background-color: yellow;
+    width:100vw;
+}
+
+.childDiv{
+    width:100px;
+    height:100px;
+    margin:10px;
+    background-color: cyan;
+}
+
+#flexRow{
+    flex-direction: row;
+}
+
+#flexColumn{
+    flex-direction: column;
+}
+
+#flexRowRev{
+    flex-direction: row-reverse;
+}
+
+#flexColumnRev{
+    flex-direction: column-reverse;
+}
+
+#flexStart{
+    justify-content: flex-start;
+}
+
+#flexEnd{
+    justify-content: flex-end;
+}
+
+#flexAround{
+    justify-content: space-around;
+}
+
+#flexBetween{
+    justify-content: space-between;
+}
+
+#flexEvenly{
+    justify-content: space-evenly;
+}
+
+#flexCenter{
+    justify-content: center;
+}
+
+#flexWrap{
+    flex-wrap:wrap;
+}
+
+#flexNowWrap{
+    flex-wrap:nowrap;
+}
+
+#flexWrapRev{
+    flex-wrap:wrap-reverse;
+}
+
+#alignItemsCenter{
+    height:300px;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+#alignItemsFlexStart{
+    height:300px;
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+
+#alignItemsFlexEnd{
+    height:300px;
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+
+#alignContentCenter{
+    height:300px;
+    flex-wrap:wrap;
+    align-content: center;
+}
+
+#alignContentFlexStart{
+    height:300px;
+    flex-wrap:wrap;
+    align-content: flex-start;
+}
+
+#alignContentFlexEnd{
+    height:300px;
+    flex-wrap:wrap;
+    align-content: flex-end;
+}
+
+
+#alignSelf{
+    height:300px;
+    flex-wrap:wrap;
+    align-items: center;
+
+    #alignSelfDivFlexStart{
+    align-self: flex-start;
+    }
+
+    #alignSelfDivStretch{
+        align-self: stretch;
+        height:auto;
+        }
+}
+
+
+#flexGrow{
+    #flexGrowDiv2{
+        flex-grow: 2;
+    }
+    #flexGrowDiv4{
+        flex-grow:4;
+    }
+}
+
+#flexShrink{
+    #flexShrinkDiv2{
+        flex-shrink: 2;
+    }
+    #flexShrinkDiv4{
+        flex-shrink:4;
+    }
+}
